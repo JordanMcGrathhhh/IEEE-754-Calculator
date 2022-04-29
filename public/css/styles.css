@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.page-container {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    min-height: 100%;
+    padding: 1em 1em 1em 1em;
+    font-size: 1.25em;
+}
+
+.title {
+    text-align: center;
+}
+
+.hr {
+    margin-bottom: 1%;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#base10-input {
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.25em;
+}
+
+.math-container {
+    display: none;
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    font-size: 1.25em;
+}
+
+#sign-bit {
+    color: green;
+}
+
+#exponent-bits {
+    color: blue;
+}
+
+#fraction-bits {
+    color: red;
+}
+
+.text-container {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-indent: 1em;
+}
+
+.text-container h2 {
+    text-indent: 0;
+}
+
+.footer {
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: grey;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social {
+    height: 3em;
+    width: 3em;
+    overflow: hidden;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.responsive-img {
+    height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 1000px) {
+    .page-container {
+        width: 60%;
+    }
+}
